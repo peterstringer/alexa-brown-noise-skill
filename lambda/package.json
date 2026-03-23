@@ -1,0 +1,19 @@
+{
+  "name": "just-brown-noise",
+  "version": "1.0.0",
+  "description": "Just Brown Noise Alexa skill Lambda function",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "ask-sdk-core": "^2.14.0",
+    "ask-sdk-model": "^1.85.0",
+    "ask-sdk-s3-persistence-adapter": "^2.1.0",
+    "aws-sdk": "^2.1500.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}

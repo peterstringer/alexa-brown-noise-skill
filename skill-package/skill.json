@@ -1,0 +1,50 @@
+{
+  "manifest": {
+    "manifestVersion": "1.0",
+    "publishingInformation": {
+      "isAvailableWorldwide": true,
+      "category": "MUSIC_AND_AUDIO",
+      "locales": {
+        "en-GB": {
+          "name": "Just Brown Noise",
+          "summary": "Play brown noise to help you sleep, focus, or relax.",
+          "description": "Just Brown Noise plays continuous brown noise with no interruptions. Brown noise is a deep, low-frequency sound often compared to a strong wind or a rushing river. Simply say 'Alexa, open just brown noise' and it starts playing immediately. Stop it any time by saying 'Alexa, stop'. Works with Alexa's built-in sleep timer — just say 'Alexa, set a sleep timer for 45 minutes'.",
+          "examplePhrases": [
+            "Alexa, open just brown noise",
+            "Alexa, launch just brown noise",
+            "Alexa, stop"
+          ]
+        },
+        "en-US": {
+          "name": "Just Brown Noise",
+          "summary": "Play brown noise to help you sleep, focus, or relax.",
+          "description": "Just Brown Noise plays continuous brown noise with no interruptions. Brown noise is a deep, low-frequency sound often compared to a strong wind or a rushing river. Simply say 'Alexa, open just brown noise' and it starts playing immediately. Stop it any time by saying 'Alexa, stop'. Works with Alexa's built-in sleep timer — just say 'Alexa, set a sleep timer for 45 minutes'.",
+          "examplePhrases": [
+            "Alexa, open just brown noise",
+            "Alexa, launch just brown noise",
+            "Alexa, stop"
+          ]
+        }
+      }
+    },
+    "apis": {
+      "custom": {
+        "interfaces": [
+          {
+            "type": "AUDIO_PLAYER"
+          }
+        ]
+      }
+    },
+    "privacyAndCompliance": {
+      "locales": {
+        "en-GB": {
+          "privacyPolicyUrl": "https://PLACEHOLDER.example.com/privacy"
+        },
+        "en-US": {
+          "privacyPolicyUrl": "https://PLACEHOLDER.example.com/privacy"
+        }
+      }
+    }
+  }
+}

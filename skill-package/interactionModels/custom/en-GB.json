@@ -1,0 +1,25 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "just brown noise",
+      "intents": [
+        { "name": "AMAZON.ResumeIntent" },
+        { "name": "AMAZON.PauseIntent" },
+        { "name": "AMAZON.StopIntent" },
+        { "name": "AMAZON.CancelIntent" },
+        { "name": "AMAZON.HelpIntent" },
+        { "name": "AMAZON.NavigateHomeIntent" },
+        { "name": "AMAZON.FallbackIntent" },
+        { "name": "AMAZON.NextIntent" },
+        { "name": "AMAZON.PreviousIntent" },
+        { "name": "AMAZON.RepeatIntent" },
+        { "name": "AMAZON.ShuffleOnIntent" },
+        { "name": "AMAZON.ShuffleOffIntent" },
+        { "name": "AMAZON.LoopOnIntent" },
+        { "name": "AMAZON.LoopOffIntent" },
+        { "name": "AMAZON.StartOverIntent" }
+      ],
+      "types": []
+    }
+  }
+}

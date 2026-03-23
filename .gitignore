@@ -1,0 +1,13 @@
+node_modules/
+.venv/
+
+# Generated audio files (too large for Git — upload to S3 via Alexa console)
+*.mp3
+*.wav
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
