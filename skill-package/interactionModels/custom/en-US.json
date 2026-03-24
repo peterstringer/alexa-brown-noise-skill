@@ -3,6 +3,17 @@
     "languageModel": {
       "invocationName": "just brown noise",
       "intents": [
+        {
+          "name": "PlayIntent",
+          "samples": [
+            "play",
+            "start",
+            "play brown noise",
+            "start brown noise",
+            "start playing",
+            "play some brown noise"
+          ]
+        },
         { "name": "AMAZON.ResumeIntent" },
         { "name": "AMAZON.PauseIntent" },
         { "name": "AMAZON.StopIntent" },

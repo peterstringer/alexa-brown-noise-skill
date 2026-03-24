@@ -31,26 +31,7 @@ const LaunchRequestHandler: Alexa.RequestHandler = {
     const token = generateToken();
 
     return handlerInput.responseBuilder
-      .speak('Starting just brown noise.')
-      .addAudioPlayerPlayDirective('REPLACE_ALL', audioUrl, token, 0)
-      .withShouldEndSession(true)
-      .getResponse();
-  },
-};
-
-const PlayIntentHandler: Alexa.RequestHandler = {
-  canHandle(handlerInput) {
-    return (
-      Alexa.getRequestType(handlerInput.requestEnvelope) === 'IntentRequest' &&
-      Alexa.getIntentName(handlerInput.requestEnvelope) === 'PlayIntent'
-    );
-  },
-  handle(handlerInput) {
-    const audioUrl = getS3PreSignedUrl(AUDIO_FILE_KEY);
-    const token = generateToken();
-
-    return handlerInput.responseBuilder
-      .speak('Starting just brown noise.')
+      .speak('Starting brown noise.')
       .addAudioPlayerPlayDirective('REPLACE_ALL', audioUrl, token, 0)
       .withShouldEndSession(true)
       .getResponse();
@@ -272,7 +253,6 @@ const persistenceAdapter = new S3PersistenceAdapter({
 export const handler = Alexa.SkillBuilders.custom()
   .addRequestHandlers(
     LaunchRequestHandler,
-    PlayIntentHandler,
     ResumeIntentHandler,
     PauseIntentHandler,
     HelpIntentHandler,
